@@ -36,5 +36,9 @@ end
     "x86_64" => "d7f32d11f86ad8ac073dd451452124324e1c9154c318f15b77b5cd254000a3c4",
     "aarch64" => "c4c10eeb4a2c9a885da13047340372f461d411711c20472fc673fbf958bf6378"
   }
+   url "https://github.com/lencx/ChatGPT/releases/download/v#{version}/ChatGPT_#{version}_macos_#{arch}.dmg"
+  sha256 sha256s[arch]
+
+    
     
     
