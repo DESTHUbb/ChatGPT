@@ -28,3 +28,6 @@ cask "chatgpt" do
 end
 
  # Instead of using an if condition to check if the system architecture is arm64 and then assigning the value "aarch64" to the variable arch, one could use the ternary operator ?
+
+  cask "chatgpt" do
+    version "0.12.0"
