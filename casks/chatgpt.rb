@@ -52,6 +52,7 @@ end
       "~/Library/Caches/com.lencx.chatgpt",
       "~/Library/HTTPStorages/com.lencx.chatgpt.binarycookies",
       "~/Library/Preferences/com.lencx.chatgpt.plist",
+      "~/Library/Saved Application State/com.lencx.chatgpt.savedState",
       
       
       
