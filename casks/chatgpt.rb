@@ -43,5 +43,10 @@ end
     desc "Desktop wrapper for OpenAI ChatGPT"
     homepage "https://github.com/lencx/ChatGPT#readme"
     
+    app "ChatGPT"
+    
+    uninstall quit: "com.lencx.chatgpt"
+    
+    
     
     
