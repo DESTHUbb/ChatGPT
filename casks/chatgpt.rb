@@ -26,3 +26,5 @@ cask "chatgpt" do
     "~/Library/WebKit/com.lencx.chatgpt",
   ]
 end
+
+ # Instead of using an if condition to check if the system architecture is arm64 and then assigning the value "aarch64" to the variable arch, one could use the ternary operator ?
