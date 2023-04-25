@@ -39,6 +39,9 @@ end
    url "https://github.com/lencx/ChatGPT/releases/download/v#{version}/ChatGPT_#{version}_macos_#{arch}.dmg"
   sha256 sha256s[arch]
 
+    name "chatGPT"
+    desc "Desktop wrapper for OpenAI ChatGPT"
+    homepage "https://github.com/lencx/ChatGPT#readme"
     
     
     
