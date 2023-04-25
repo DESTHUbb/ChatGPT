@@ -56,8 +56,8 @@ end
       "~/Library/WebKit/com.lencx.chatgpt",
   ]
 end
-      
-      
+     # With this modification, the code is more concise and easier to understand. 
+     
      
     
     
