@@ -50,6 +50,7 @@ end
     zap trash : [ 
       "~/.chatgpt",
       "~/Library/Caches/com.lencx.chatgpt",
+      "~/Library/HTTPStorages/com.lencx.chatgpt.binarycookies",
       
       
      
