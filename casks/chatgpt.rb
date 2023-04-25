@@ -32,5 +32,9 @@ end
   cask "chatgpt" do
     version "0.12.0"
     arch = Hardware::CPU.arch.to_s == "arm64" ? "aarch64" : Hardware::CPU.arch.to_s
+     sha256s = {
+    "x86_64" => "d7f32d11f86ad8ac073dd451452124324e1c9154c318f15b77b5cd254000a3c4",
+    "aarch64" => "c4c10eeb4a2c9a885da13047340372f461d411711c20472fc673fbf958bf6378"
+  }
     
     
