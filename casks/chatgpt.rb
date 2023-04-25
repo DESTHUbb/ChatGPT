@@ -31,3 +31,6 @@ end
 
   cask "chatgpt" do
     version "0.12.0"
+    arch = Hardware::CPU.arch.to_s == "arm64" ? "aarch64" : Hardware::CPU.arch.to_s
+    
+    
