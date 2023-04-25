@@ -48,7 +48,10 @@ end
     uninstall quit: "com.lencx.chatgpt"
     
     zap trash : [ 
-       "~/.chatgpt",
+      "~/.chatgpt",
+      "~/Library/Caches/com.lencx.chatgpt",
+      
+      
      
     
     
