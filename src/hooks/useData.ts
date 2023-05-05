@@ -126,6 +126,10 @@ const [data, setData] = useState<T[]>([]);
      return updatedData;
   };
   
+  const replaceItems = (ids: string[], newItem: Partial<T>) => {
+    const updateData = [...data];
+    let count = 0;
+    
     
     
     
