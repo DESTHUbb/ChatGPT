@@ -163,5 +163,7 @@ const [data, setData] = useState<T[]>([]);
 
 3: Separated the complex logic of the "replaceItems" function into smaller functions.
 
+4: Added the useMemo function to memorize the local state "data" and thus improve the performance of the hook.
+
 
 
