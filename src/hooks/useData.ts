@@ -142,7 +142,17 @@ const [data, setData] = useState<T[]>([]);
   
     const memoizedData = useMemo(() => data, [data]);
 
-  
+  return {
+    safeKey,
+    init,
+    add,
+    remove,
+    removeItems,
+    replace,
+    replaceItems,
+    data: memoizedData,
+  };
+}
   
 
 
