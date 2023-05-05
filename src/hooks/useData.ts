@@ -161,7 +161,7 @@ const [data, setData] = useState<T[]>([]);
 
 2: Changed function names to be more descriptive and to conform to the JavaScript naming convention.
 
-3: 
+3: Separated the complex logic of the "replaceItems" function into smaller functions.
 
 
 
