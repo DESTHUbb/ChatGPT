@@ -134,7 +134,8 @@ const [data, setData] = useState<T[]>([]);
         updatedData[i] = { ...updatedData[i], ...newItem };
         count++;
         if (count === ids.length) break;
-        
+         }
+    }
         
     
     
