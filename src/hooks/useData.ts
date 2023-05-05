@@ -79,6 +79,8 @@ import { v4 as uuidv4 } from 'uuid';
 
 type ObjectWithSafeKey = Record<string, any> & { [safeKey]: string };
 
+export const safeKey = Symbol('chat-id');
+
                                               
 
 
