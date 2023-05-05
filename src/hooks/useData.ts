@@ -77,7 +77,8 @@ export default function useData(oData: any[]) {
 import { useState, useEffect, useMemo } from 'react' ;
 import { v4 as uuidv4 } from 'uuid';
 
-type ObjectWithSafeKey = Record<string, any> & { [safeKey]: string 
+type ObjectWithSafeKey = Record<string, any> & { [safeKey]: string };
+
                                               
 
 
