@@ -139,7 +139,9 @@ const [data, setData] = useState<T[]>([]);
     setData(updatedData);
     return updatedData;
     };
-    
+  
+    const memoizedData = useMemo(() => data, [data]);
+
   
   
 
