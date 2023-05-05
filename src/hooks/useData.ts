@@ -169,4 +169,5 @@ const [data, setData] = useState<T[]>([]);
 
 6: Added type "ObjectWithSafeKey" to describe objects that have a "safeKey" property.
 
+7: Adjusted the logic in the "replace" function to make sure the "safeKey" property is kept on the updated object.
 
