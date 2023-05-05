@@ -89,7 +89,10 @@ const [data, setData] = useState<T[]>([]);
     init(initialData);
   }, []);
   
-  
+  const init = (newData: T[]) => {
+    const updatedData = newData.map((i) => ({ [safeKey]: uuidv4(), ...i }));
+    setData(updatedData);
+  };
 
 
 
