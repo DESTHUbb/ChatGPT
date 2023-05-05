@@ -159,7 +159,9 @@ const [data, setData] = useState<T[]>([]);
 
 1: Added a generic type to specify the type of object to use in the list.
 
-2
+2: Changed function names to be more descriptive and to conform to the JavaScript naming convention.
+
+3: 
 
 
 
