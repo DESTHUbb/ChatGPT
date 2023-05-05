@@ -97,8 +97,10 @@ const [data, setData] = useState<T[]>([]);
   const add = (newItem: T) => {
    const updateData = [newItem, ...data];
     setData(updatedData);
-    return updateData;
+    return updatedData;
   };
+  
+  
   
 
 
