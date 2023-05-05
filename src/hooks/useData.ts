@@ -82,7 +82,14 @@ type ObjectWithSafeKey = Record<string, any> & { [safeKey]: string };
 export const safeKey = Symbol('chat-id');
 
 export default function useData<T extends ObjectWithSafeKey>(initialData: T[] = []) {
-                                           
+
+const [data, setData] = useState<T[]>([]);
+
+  useEffect(() => {
+    init(initialData);
+  }, []);
+  
+  
 
 
 
