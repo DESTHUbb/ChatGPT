@@ -167,5 +167,6 @@ const [data, setData] = useState<T[]>([]);
 
 5: Changed function "v4" to "v4 as uuidv4" to improve code readability.
 
+6: Added type "ObjectWithSafeKey" to describe objects that have a "safeKey" property.
 
 
