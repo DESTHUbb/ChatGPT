@@ -136,8 +136,7 @@ const [data, setData] = useState<T[]>([]);
         if (count === ids.length) break;
          }
     }
-        
-    
+    setData(updatedData);
     
     
     
