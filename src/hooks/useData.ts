@@ -165,5 +165,7 @@ const [data, setData] = useState<T[]>([]);
 
 4: Added the useMemo function to memorize the local state "data" and thus improve the performance of the hook.
 
+5: Changed function "v4" to "v4 as uuidv4" to improve code readability.
+
 
 
