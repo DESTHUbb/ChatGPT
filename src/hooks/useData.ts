@@ -103,6 +103,10 @@ const [data, setData] = useState<T[]>([]);
    const remove = (id: string) => {
     const updatedData = data.filter((item) => item[safeKey] !== id);
      
+         setData(updatedData);
+    return updatedData;
+  };
+
      
   
 
