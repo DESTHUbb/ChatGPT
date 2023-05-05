@@ -114,6 +114,19 @@ const [data, setData] = useState<T[]>([]);
     return updatedData;
   };
   
+  const replace = (id: string, newItem: T) => {
+    const updatedData = [...data];
+    const index = updatedData.findIndex((item) => item[safeKey] === id);
+    
+    if (index !== -1) {
+      updatedData[index] = { ...newItem, [safeKey]: id };
+      setData(updatedData);
+    }
+    
+    
+    
+    
+  
   
 
 
