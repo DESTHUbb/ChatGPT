@@ -101,8 +101,5 @@ const [data, setData] = useState<T[]>([]);
   };
   
   
-  
-
-
 
 
