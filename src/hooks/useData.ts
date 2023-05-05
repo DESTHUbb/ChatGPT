@@ -93,6 +93,13 @@ const [data, setData] = useState<T[]>([]);
     const updatedData = newData.map((i) => ({ [safeKey]: uuidv4(), ...i }));
     setData(updatedData);
   };
+  
+  const add = (newItem: T) => {
+   const updateData = [newItem, ...data];
+    setData(updatedData);
+    return updateData;
+  };
+  
 
 
 
