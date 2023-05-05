@@ -153,11 +153,13 @@ const [data, setData] = useState<T[]>([]);
     data: memoizedData,
   };
 }
-  
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # The changes made to the code are as follows:
 
 1: Added a generic type to specify the type of object to use in the list.
 
+2
 
 
 
