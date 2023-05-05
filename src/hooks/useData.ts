@@ -127,9 +127,15 @@ const [data, setData] = useState<T[]>([]);
   };
   
   const replaceItems = (ids: string[], newItem: Partial<T>) => {
-    const updateData = [...data];
+    const updatedData = [...data];
     let count = 0;
-    
+    for (let i = 0; i < updatedData.length; i++) {
+      if (ids.includes(updatedData[i][safeKey])) {
+        updatedData[i] = { ...updatedData[i], ...newItem };
+        count++;
+        if (count === ids.length) break;
+        
+        
     
     
     
