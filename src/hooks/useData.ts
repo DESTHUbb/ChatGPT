@@ -100,6 +100,13 @@ const [data, setData] = useState<T[]>([]);
     return updatedData;
   };
   
+   const remove = (id: string) => {
+    const updatedData = data.filter((item) => item[safeKey] !== id);
+     
+     
+  
+
+  
   
 
 
