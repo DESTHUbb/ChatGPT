@@ -137,8 +137,8 @@ const [data, setData] = useState<T[]>([]);
          }
     }
     setData(updatedData);
-    
-    
+    return updatedData;
+    };
     
   
   
